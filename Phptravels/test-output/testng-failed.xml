@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Automation1.Phptravels.Testcase1">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Automation1.Phptravels.Testcase1 -->
+      <class name="Automation1.Phptravels.Flighttest">
+        <methods>
+          <include name="close"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- Automation1.Phptravels.Flighttest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
